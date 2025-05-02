@@ -22,4 +22,4 @@ cant find a proper way to install the config files, soo just copy and paste them
 - mod + q = close focused window
 
 # NOTES:
-feel free to change anything from ts, although i made it to archive my config files, for recording in obs just install xdg-desktop-portal-wlr
+feel free to change anything from ts, although i made it to archive my config files
