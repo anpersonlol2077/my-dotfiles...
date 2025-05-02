@@ -25,7 +25,7 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/gael/sway-wallpaper/dark-forest.jpg fill
+output * bg /wallpaper/directory/here fill
 #
 # Example configuration:
 #
