@@ -1,7 +1,7 @@
 # my-dotfiles...
 ONLY FOR SWAY CHAD PEOPLE!!
 
-basically sum config files to set up my sway linux computer!!
+basically sum config files to set up your sway linux computer!!
 
 # MANDATORY PACKAGES:
 - sway (duh)
