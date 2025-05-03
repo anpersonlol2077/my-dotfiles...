@@ -24,4 +24,4 @@ cant find a proper way to install the config files, soo just copy and paste them
 - mod + q = close focused window
 
 # NOTES:
-feel free to change anything from ts, although i made it to archive my config files
+feel free to change anything from ts, although i made it to archive my config files, btw im spanish so if u see the keyboard set to spanish in the sway config its not my fault
