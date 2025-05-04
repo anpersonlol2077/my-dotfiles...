@@ -6,6 +6,7 @@ basically sum config files to set up your sway linux computer!!
 - pamixer
 - neofetch
 - wofi
+- grimshot
 
 # INSTALLATION:
 cant find a proper way to install the config files, soo just copy and paste them to ~/.config, by the way the neofetch config file has its ascii set to linuxmint_small since it was made in linux mint, so change it if you are on another distro lol (PLEASE change the wallpaper thing on the sway config file to the directory where your wallpaper is)
