@@ -5,6 +5,12 @@
     border-radius: 5px
 }
 
+#window {
+    background-color: #bbccdd;
+    color: #000000;
+    padding: 0px 10px;
+}
+
 window#waybar {
     background-color: rgba(43, 48, 59, 0);
     color: #ffffff;
@@ -181,7 +187,7 @@ label:focus {
 #wireplumber {
     background-color: #fff0f5;
     color: #000000;
-}
+} 
 
 #wireplumber.muted {
     background-color: #f53c3c;
