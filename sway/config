@@ -1,8 +1,16 @@
+# Default config for sway
+#
+# Copy this to ~/.config/sway/config and edit it to your liking.
+#
+# Read `man 5 sway` for a complete reference.
+
 for_window [app_id="foot"] opacity 0.8
 
 input * {
 	xkb_layout es
 }
+
+default_border none
 
 ### Variables
 #
@@ -25,7 +33,7 @@ include /etc/sway/config-vars.d/*
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /wallpaper/directory/here fill
+output * bg /home/gael/sway-wallpaper/dark-forest.jpg fill
 #
 # Example configuration:
 #
@@ -91,6 +99,12 @@ output * bg /wallpaper/directory/here fill
     bindsym $mod+Alt+Down exec pamixer -d 5
     bindsym $mod+Alt+m exec pamixer -t
 
+
+    # Screenshot full screen
+    bindsym Print exec grimshot save screen ~/Pictures/screenshot-$(date +%F-%T).png
+
+    # Screenshot area with selection
+    bindsym Shift+Print exec grimshot save area ~/Pictures/screenshot-$(date +%F-%T).png
 
 #
 # Moving around:
